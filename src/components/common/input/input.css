@@ -1,0 +1,33 @@
+.form-group {
+  position: relative;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+input {
+  font-size: 15px;
+  padding: 8px 12px;
+  border: 1px solid #d5d5d5;
+  border-radius: 25px;
+  color: #595964;
+  width: 100%;
+  box-sizing: border-box;
+  background-color: #f0f0f0;
+}
+
+.error input {
+  border: 1.5px solid #ffa3a3;
+}
+
+input:focus {
+  outline: none;
+}
+
+.form-group.focused label,
+.form-group:focus-within label,
+input:not(:placeholder-shown) + label {
+  top: 0;
+  padding: 0 4px;
+  font-size: 11px;
+}

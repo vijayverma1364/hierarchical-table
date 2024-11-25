@@ -1,0 +1,53 @@
+.app-wrapper {
+  margin: 0 100px;
+}
+
+table {
+  width: 100%;
+  border-collapse: collapse;
+  margin-top: 50px;
+  border-color: #e5e5e5;
+}
+
+.group-item {
+  background-color: #fafafa;
+}
+
+.group-item td {
+  font-weight: 700;
+}
+
+th,
+td {
+  border: 1px solid #ddd;
+  padding: 8px;
+  text-align: center;
+}
+
+th {
+  background-color: #ededed;
+}
+
+.w-full {
+  width: 100%;
+}
+
+.mt-5 {
+  margin-top: 20px;
+}
+
+.tabel-header-title {
+  display: flex;
+  justify-content: center;
+}
+
+.tabel-header-title h1 {
+  font-size: 24px;
+  font-weight: 500;
+  color: #171717;
+  line-height: 32px;
+}
+.grand-total {
+  height: 52px;
+  background-color: #ededed;
+}

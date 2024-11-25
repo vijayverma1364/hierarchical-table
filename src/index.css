@@ -1,0 +1,35 @@
+@import url("https://fonts.googleapis.com/css2?family=Inter:wght@100..900&display=swap");
+
+body {
+  margin: 0;
+  font-family: "Inter", sans-serif;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  background: #ffffff;
+}
+
+code {
+  font-family: source-code-pro, Menlo, Monaco, Consolas, "Courier New",
+    monospace;
+}
+
+/* Dynamic properties */
+:root {
+  --color: initial;
+  --bg-color: initial;
+  --height: initial;
+  --border-width: initial;
+  --border-color: initial;
+  --border-radius: initial;
+  --font-size: initial;
+  --width: initial;
+
+  /* Theme variables */
+  --theme-primary-blue: #007bff;
+  --theme-white: #ffffff;
+  --theme-natural-200: #e0e0e0;
+  --theme-natural-700: #4a4a4a;
+  --theme-secondary-blue: #6c757d;
+  --theme-error-500: #dc3545;
+  --theme-primary-50: #cce5ff;
+}
